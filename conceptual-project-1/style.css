@@ -39,6 +39,7 @@
     align-items: center;
     height: 100vh;
     /*border: 1px solid gray;*/
+    background-repeat: no-repeat;
 }
 .banner-title{
     font-size: 40px;
@@ -61,10 +62,123 @@
     padding: 9px 20px;
     color: aliceblue;
     border: none;
-    border-radius: 3px;
+    border-radius:0 12px;
+    font-weight: 300;
    
 
 }
+.banner-btn:hover{
+    background-color: royalblue;
+}
 .banner-img{
     width: 300px;
+}
+
+/* second part */
+
+.second-container{
+    height: 100vh;
+    margin-top: 20px;
+   
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.third-container{
+    background-image: url("images/background.png"),
+    linear-gradient(45deg, rgb(15, 14, 14), rgb(18, 18, 18));
+    height: 100vh;
+    
+}
+.second-img{
+    width: 300px;
+    padding-top: 40px;
+}
+.second-heading{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 35px;
+    padding-bottom: 40px;
+}
+.service-heading{
+    color: aliceblue;
+    padding-top: 60px;
+}
+.second-title{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.second-description{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 100; 
+}
+.service-container{
+    margin-top:15px ;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.icon-img{
+    width: 70px;
+   
+
+}
+.box{
+    background-color: black;
+    box-shadow: 7px 7px 20px gray;
+    height: 250px;
+    width: 220px;
+    color: aliceblue;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5px;
+   
+    
+    
+}
+.servie-title{
+    padding-top: 7px;
+}
+.service-description{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.service-btn{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px 15px;
+   
+}
+.last-container{
+    background-color: rgb(22, 21, 21);
+}
+.footer{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+}
+.footer-logo{
+    width: 120px;
+}
+.footer-links{
+    text-decoration: none;
+    color: aliceblue;
+}
+.bottom{
+    padding-bottom: 9px;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
+    padding-bottom: 30px;
 }
